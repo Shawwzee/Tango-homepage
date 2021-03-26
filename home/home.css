@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(31, 31, 31);
+    font-family: 'Lexend', sans-serif;
+}
+nav {
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0,0,0,0) 3%, rgb(17, 17, 17) 100%);
+}
+#container {
+    margin: auto;
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    
+}
+#logo {
+    width: 120px;
+    margin: 5px 0;
+}
+#container ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: auto 0;
+}
+#container ul li a {
+    margin-left: 45px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+#container ul li a:hover {
+    border-bottom: white 2px solid;
+}
+.showcase {
+    min-width: 85vw;
+    max-width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+#canImg {
+    height: 55vh;
+    width: 525px;
+}
+.TxtWBtn {
+    margin: auto;
+    padding: 0 20px;
+}
+.TxtWBtn p {
+    margin: auto;
+    margin-right: 50px;
+    color: white;
+}
+.TxtWBtn button {
+    margin: auto;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 28px;
+    padding: 5px 10px;
+    outline: none;
+    background-color: #ff6600;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+h1 {
+    color: white;
+    font-size: 61px;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.flavours {
+    width: 85vw;
+    margin: 60px auto;
+}
+.canpic {
+    height: 90px;
+    width: auto;
+    margin: 0 15px;
+    transition-duration: 0.5s;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.canpic:hover {
+    transform: translateY(-8px);
+    opacity: 1;
+}
+.pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.transition {
+    background: linear-gradient(0deg, rgba(17,17,17,1) 3%, rgba(0,0,0,0) 100%);
+    width: 100vw;
+    height: 50px;
+}
+footer {
+    background: rgba(17,17,17,1);
+    width: 100vw;
+    padding: 10px 0px;
+}
+.flexfoot {
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.3;
+    color: white;
+}
+.copyright {
+    width: 100vw;
+    text-align: center;
+    padding: 35px 0;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 14px;
+}
+.contact {
+    color: white;
+}
+.socials {
+    margin: auto;
+}
+.socials p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+}
+.icons img {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+.fab {
+    font-size: 50px;
+    margin: 0 20px;
+    color:white;
+    cursor: pointer;
+}
